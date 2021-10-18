@@ -22,6 +22,7 @@ The VS Code setting script:
     "C_Cpp.intelliSenseCachePath": "${workspaceFolder}/.vscode",
     "C_Cpp.errorSquiggles": "Disabled",
     "editor.renderWhitespace": "all",
+    "editor.guides.indentation": false,
     "editor.tabSize": 2,
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
