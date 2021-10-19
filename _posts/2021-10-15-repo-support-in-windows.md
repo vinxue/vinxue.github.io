@@ -15,6 +15,8 @@ Unfortunately, Repo is primarily developed on Linux, Windows is not fully suppor
 
 To help the Repo setting in Windows, there is a simple instruction.
 
+OS Version: Windows 10 or newer.
+
 1. Install Cygwin from [https://www.cygwin.com/](https://www.cygwin.com/). Select a server and instll Python3 and Git.
 2. Set up your SSH Key or ~/.ssh/config per your project.
 3. Download [Repo](https://storage.googleapis.com/git-repo-downloads/repo) from [https://gerrit.googlesource.com/git-repo/](https://gerrit.googlesource.com/git-repo/). It's a single script. Copy the `repo` script to Cygwin installation directory (e.g. C:\cygwin64\bin)
