@@ -1,8 +1,8 @@
---- 
+---
 layout: page
-title : Portfolio 
+title : Portfolio
 permalink: /portfolio/
-subtitle: "Projects I am working on" 
+subtitle: "Enjoy coding, enjoy life."
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Archive]
 ---
