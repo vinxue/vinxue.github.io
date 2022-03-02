@@ -13,14 +13,14 @@ Current QEMU composes all ACPI tables on the host side, according to the target 
 
 To enable built-in ACPI table in current EDK2 code, need to revert to a old version.
 
-1. Checkout a old edk2 branch (edk2-stable202105)
+- Checkout a old edk2 branch (edk2-stable202105)
 ```
 git clone --recurse-submodules https://github.com/tianocore/edk2.git
 cd edk2
 git checkout edk2-stable202105
 ```
 
-2. Change some code
+- Change some code
 
 ```c
 //
@@ -74,7 +74,9 @@ InstallAcpiTables (
   return Status;
 }
 ```
-3. Build OVMF BIOS
+
+- Build OVMF BIOS
+
 ```
 build -a IA32 -a X64 -p OvmfPkg\OvmfPkgIa32X64.dsc -t VS2019 -b DEBUG -D DEBUG_ON_SERIAL_PORT
 ```
