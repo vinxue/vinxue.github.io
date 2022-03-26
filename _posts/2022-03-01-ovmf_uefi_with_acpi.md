@@ -11,9 +11,9 @@ tags: [UEFI]
 
 Current QEMU composes all ACPI tables on the host side, according to the target hardware configuration, and make the tables available to any guest firmware over fw_cfg. OVMF UEFI also removed built-in ACPI table.
 
-To enable built-in ACPI table in current EDK2 code, need to revert to a old version.
+To enable built-in ACPI table in current EDK2 code, need to revert to an old version.
 
-- Checkout a old edk2 branch (edk2-stable202105)
+- Checkout an old edk2 branch (edk2-stable202105)
 ```
 git clone --recurse-submodules https://github.com/tianocore/edk2.git
 cd edk2
