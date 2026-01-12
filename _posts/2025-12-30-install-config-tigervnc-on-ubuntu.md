@@ -39,3 +39,4 @@ vncserver
 ### NOTE
 - **MUST log out** Ubuntu account before connect this Ubuntu from another compute.
 - Set Ubuntu `Settings` -> `Power` -> `Screen Blank` to `Never`.
+- Unlock login session by `sudo loginctl unlock-session` if lock screen is frozen or unresponsive.
